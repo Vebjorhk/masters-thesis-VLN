@@ -12,9 +12,3 @@ The `requirements.txt` file contains the Python dependencies used for training t
 ```bash
 pip install -r requirements.txt
 ```
-
-### API Use for Remote Evaluation
-
-In cases where the Matterport3D simulator cannot be run on the machine used for training (e.g., due to system incompatibility, limited GPU access, or resource constraints), this codebase supports evaluation via a remote API.
-
-The API allows a separate machine — where the Matterport3D simulator is running — to handle simulation and evaluation requests. 
